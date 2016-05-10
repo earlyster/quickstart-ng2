@@ -1,4 +1,4 @@
-import {Component, Inject} from 'angular2/core';
+import {Component, Inject} from '@angular/core';
 
 /**
  * This component injects "barDetail" (resolve data) and renders the detail

@@ -1,4 +1,4 @@
-import {Http} from "angular2/http";
+import {Http} from "@angular/http";
 import {BarListComponent} from "./barList.component";
 import {BarDetailsComponent} from "./barDetail.component";
 
@@ -29,5 +29,3 @@ export let BAR_STATES = [
     // Resolves barDetail, then the component displays the data
     { name: 'app.bar.details', url: '/:barId', component: BarDetailsComponent, resolve: { barDetail } },
 ];
-
-

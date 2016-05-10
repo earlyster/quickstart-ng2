@@ -1,6 +1,6 @@
-import {Component, Inject} from 'angular2/core';
+import {Component, Inject} from '@angular/core';
 import {UIROUTER_DIRECTIVES} from "ui-router-ng2";
-import {CORE_DIRECTIVES} from "angular2/common";
+import {CORE_DIRECTIVES} from "@angular/common";
 
 /**
  * This component injects "barList" (resolve data)

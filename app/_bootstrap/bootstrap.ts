@@ -1,8 +1,8 @@
 import {trace, UIROUTER_PROVIDERS, UiView, UIRouterConfig, Category} from "ui-router-ng2";
 import {MyUIRouterConfig} from "./router.config";
-import {HTTP_PROVIDERS} from "angular2/http";
-import {provide} from "angular2/core";
-import {bootstrap} from 'angular2/platform/browser';
+import {HTTP_PROVIDERS} from "@angular/http";
+import {provide} from "@angular/core";
+import {bootstrap} from '@angular/platform-browser-dynamic';
 import 'rxjs/add/operator/toPromise';
 import 'rxjs/add/operator/map';
 
